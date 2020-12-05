@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, roboto;
+  margin: 2em;
+  background-color: #1A1A1A; 
+}
+
+h1 {
+  font-style: bold;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+
+.container {
+  background-color: #333333;
+  border-radius: 16px;
+  
+}
+
+.canvas {
+	display: block;
+	position: absolute;
+  text-align: center;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+}
+
+  #game {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #block {
+    width: 50px;
+    height: 500px;
+    background-colour: #333333;
+      
+  }
