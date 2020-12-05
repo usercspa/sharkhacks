@@ -13,12 +13,10 @@
     />
     <!-- add font -->
     <link
-      href="https://fonts.googleapis.com/css?family=Cookie"
+      href="https://fonts.googleapis.com/css?family=Teko:700"
       rel="stylesheet"
     />
     <!--add javascript-->
-
-    <script async src="./index.js"></script>
 
     <title>Giddy Shark</title>
     <!-- link for icons -->
@@ -29,6 +27,16 @@
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    
+    <style>
+    
+  canvas {
+	border: 1px solid #000000;
+  display: block;
+	margin: auto;
+}
+
+    </style>
   </head>
   <body>
     <div class="container">
@@ -36,24 +44,14 @@
         Help Giddy Shark to avoid danger
       </h1>
 
-      <div id="game">
-        
-        <div id ="block">
-          
-          <div id="hole">
-            
-            <div id="shark">
-              
-            </div>
-            
-          </div>
-        </div>
-        
-      </div>
+      <canvas
+        id="giddyShark"
+        width="320"
+        height="480"
+        style="background:url('https://cdn.glitch.com/ae2877db-d048-445e-9006-36d3c1c5ed15%2Fnewbg.png?v=1607203254908')"
+      ></canvas>
 
-
-              <script src="script.js">
-      </script>
+      <script src="script.js"></script>
     </div>
   </body>
 </html>

@@ -28,11 +28,23 @@ background.src =
 
 var swim = new Audio();
 var dead = new Audio();
+var score = new Audio();
+var hit = new Audio();
+var swoosh = new Audio();
 
 swim.src =
   "https://cdn.glitch.com/e16a6ed2-a3c7-4365-b036-6bda31d91b0d%2F7053_mystiscool_eel-fishing-1%20(online-audio-converter.com).mp3?v=1607126558297";
 dead.src =
   "https://cdn.glitch.com/e16a6ed2-a3c7-4365-b036-6bda31d91b0d%2F197994_jjhouse4_short-mettalic-buzz%20(online-audio-converter.com).mp3?v=1607126768053";
+
+score.src =
+  "https://cdn.glitch.com/ae2877db-d048-445e-9006-36d3c1c5ed15%2Fscore.mp3?v=1607205026678";
+
+hit.src =
+  "https://cdn.glitch.com/ae2877db-d048-445e-9006-36d3c1c5ed15%2Fhit.mp3?v=1607205036678";
+
+swoosh.src =
+  "https://cdn.glitch.com/ae2877db-d048-445e-9006-36d3c1c5ed15%2Fswoosh.mp3?v=1607205283306";
 
 // gap between objects
 var gap = 85;
