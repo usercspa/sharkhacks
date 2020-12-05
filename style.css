@@ -11,35 +11,6 @@ h1 {
   text-align: center;
   color: #FFFFFF;
   padding: 10px;
-}
-
-._text {
-  position: relative;
-  text-align: center;
-  font-size: 14px;
-  color: #FF0000;
-  z-index: 1;
-}
-
-img {
-  left: calc(50% - 350px / 2);
-  top: 125px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  z-index: 1;
-
-  background: url(logo.jpg);
-}
-
-h2,
-h3,
-h4,
-h5,
-p {
-  text-align: center;
-}
 
 .container {
   background-color: #333333;
@@ -47,7 +18,7 @@ p {
   
 }
 
-canvas {
+.canvas {
 	display: block;
 	position: absolute;
   text-align: center;
@@ -58,3 +29,16 @@ canvas {
   right: 0;
 }
 
+  #game {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #block {
+    width: 50px;
+    height: 500px;
+    background-colour: #333333;
+      
+  }
